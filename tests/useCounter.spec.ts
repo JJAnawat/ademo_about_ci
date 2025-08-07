@@ -25,6 +25,10 @@ describe('useCounter', () => {
     
     act(() => {
       result.current.setVal(5);
+      // result.current.increment();
+    });
+
+    act(() => {
       result.current.increment();
     });
     
